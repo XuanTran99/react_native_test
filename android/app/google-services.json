@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "781456131770",
+    "project_id": "daugia-notification",
+    "storage_bucket": "daugia-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781456131770:android:7d00d0f72c582c0bd42483",
+        "android_client_info": {
+          "package_name": "caonguyen.tech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781456131770-taf9rg1muu7kjq9ru9v3544p3uvmoluc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCzhQNpkOIBrsBPXnZyGRLoKqK07fG9CY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781456131770-taf9rg1muu7kjq9ru9v3544p3uvmoluc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "781456131770-phspvqpvj885avakgk43gijtdsn9aqeq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.daugia"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

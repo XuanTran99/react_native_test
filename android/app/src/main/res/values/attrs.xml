@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableTextView">
+        <attr name="animation_duration" format="integer" />
+    </declare-styleable>
+    <attr name="placeholderText" format="string" />
+    <attr name="placeholderColor" format="color" />
+    <attr name="backgroundColor" format="color" />
+
+    <declare-styleable name="MultiSpinnerSearch">
+        <attr name="hintText" format="string" />
+        <attr name="highlightSelected" format="boolean" />
+        <attr name="highlightColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="clearText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="BrowserFileSpinner">
+        <attr name="placeholderText"/>
+        <attr name="placeholderColor" />
+        <attr name="backgroundColor" />
+    </declare-styleable>
+
+    <declare-styleable name="BrowserFileView">
+        <attr name="placeholderText"/>
+        <attr name="placeholderColor" />
+        <attr name="backgroundColor"/>
+    </declare-styleable>
+    <declare-styleable name="IndicatorSeekBar"><attr format="float" name="isb_max"/><attr format="float" name="isb_min"/><attr format="float" name="isb_progress"/><attr format="boolean" name="isb_progress_value_float"/><attr format="boolean" name="isb_seek_smoothly"/><attr format="boolean" name="isb_r2l"/><attr format="integer" name="isb_ticks_count"/><attr format="boolean" name="isb_user_seekable"/><attr format="boolean" name="isb_clear_default_padding"/><attr format="boolean" name="isb_only_thumb_draggable"/><attr name="isb_show_indicator">
+        <enum name="none" value="0"/>
+        <enum name="circular_bubble" value="1"/>
+        <enum name="rounded_rectangle" value="2"/>
+        <enum name="rectangle" value="3"/>
+        <enum name="custom" value="4"/>
+    </attr><attr format="color|reference" name="isb_indicator_color"/><attr format="color|reference" name="isb_indicator_text_color"/><attr format="dimension|reference" name="isb_indicator_text_size"/><attr format="reference" name="isb_indicator_content_layout"/><attr format="reference" name="isb_indicator_top_content_layout"/><attr format="dimension|reference" name="isb_track_background_size"/><attr format="color|reference" name="isb_track_background_color"/><attr format="dimension|reference" name="isb_track_progress_size"/><attr format="color|reference" name="isb_track_progress_color"/><attr format="boolean" name="isb_track_rounded_corners"/><attr format="color|reference" name="isb_thumb_text_color"/><attr format="boolean" name="isb_show_thumb_text"/><attr format="dimension|reference" name="isb_thumb_size"/><attr format="color|reference" name="isb_thumb_color"/><attr format="reference" name="isb_thumb_drawable"/><attr format="boolean" name="isb_thumb_adjust_auto"/><attr format="color|reference" name="isb_tick_marks_color"/><attr format="dimension|reference" name="isb_tick_marks_size"/><attr format="reference" name="isb_tick_marks_drawable"/><attr format="boolean" name="isb_tick_marks_ends_hide"/><attr format="boolean" name="isb_tick_marks_swept_hide"/><attr name="isb_show_tick_marks_type">
+        <enum name="none" value="0"/>
+        <enum name="oval" value="1"/>
+        <enum name="square" value="2"/>
+        <enum name="divider" value="3"/>
+    </attr><attr format="boolean" name="isb_show_tick_texts"/><attr format="reference|color" name="isb_tick_texts_color"/><attr format="dimension|reference" name="isb_tick_texts_size"/><attr format="reference" name="isb_tick_texts_array"/><attr name="isb_tick_texts_typeface">
+        <enum name="normal" value="0"/>
+        <enum name="monospace" value="1"/>
+        <enum name="sans" value="2"/>
+        <enum name="serif" value="3"/>
+    </attr></declare-styleable>
+</resources>
